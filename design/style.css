@@ -58,6 +58,11 @@ body{
     height: 30px;
     box-shadow: 2px 2px 1px #AEB6BF;
 }
+.cont-social p{
+    color: #fff;
+    font-size: 9px;
+    margin-left: 25px;
+}
 .browse{
     width: 100%;
     height: 45px;
