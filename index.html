@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPet</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./design/style.min.css">
+    <script src="./js/logic.js"></script>
+</head>
+<body>
+    <header class="cont-head">
+        <div class="cont-title">
+                <img src="./images/gato.gif" alt="">
+                <h1>My Pet</h1>
+                <h4>¡Lo que tu mascota se merece!</h4>
+        </div>
+        <div class="cont-social">
+            <img src="./images/facebook.png" onclick="viewFacebook()">
+            <img src="./images/instagram.png" onclick="">
+            <img src="./images/whatsapp.png" onclick="">
+            <img src="./images/home.svg" onclick="location.reload()">
+        </div>
+    </header>
+    <nav class="browse">
+        <button class="btn-blue" onclick="openServic()">Servicios</button>
+        <button class="btn-blue" onclick="openGalery()">Galeria</button>
+        <button class="btn-blue" onclick="openNews()">Noticias</button>
+        <button class="btn-blue" onclick="openWe()">Nosotros</button>
+        <button class="btn-blue" onclick="openContacts()">Contactos</button>
+    </nav>
+    <section class="cont-work">
+        <img src="./images/perro.gif" id="imgDog">
+        <div class="contac" id="contac">
+            <div class="cab">
+                <h1>¡Contactanos a traves de nuestras redes sociales o número celular!</h1>
+            </div>
+            <div class="body-cont">
+            <div class="red1">
+                <img src="./images/gmail.png" alt="">
+                <p><a href="mailto:mypet.2412@gmail.com?Subject=Hola%20My%20Pet">e-mail</a></p>
+            </div>
+            <div class="red1">
+                <img src="./images/fb.png" alt="">
+                <p><a href="https://www.facebook.com/profile.php?id=100039212593273&sk=about">facebook</a></p>
+            </div>
+            <div class="red1">
+                <img src="./images/instag.png" alt="">
+                <p><a href="">instagram</a></p>
+            </div>
+            <div class="red1">
+                <img src="./images/wapp.png" alt="">
+                <p><a href="https://api.whatsapp.com/send?phone=573058177102&text=Hola%20My%20Pet">whatsapp</a></p>
+            </div>
+        </div>
+        <div class="cab">
+            <p>o llamanos al 305 8177102</p>
+        </div>
+    </div>
+        <iframe src="./frame_1.html" class="frame1" id="frame1"></iframe>
+        <iframe src="./frame_2.html" class="frame1" id="frame2"></iframe>
+        <iframe src="./frame_3.html" class="frame1" id="frame3"></iframe>
+        <iframe src="./frame_4.html" class="frame1" id="frame4"></iframe>
+    </section>
+    <footer class="cont-footer">
+        <p>Calle 69 d sur Nº 14 c sur    Barrio: Nuevo San Andres</p>
+    </footer>
+    <script src="./js/logic.js"></script>
+</body>
+</html>
