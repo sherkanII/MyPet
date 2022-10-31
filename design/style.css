@@ -1,7 +1,11 @@
 body{
-    width: 100%;
-    overflow-y: scroll;
-    padding: 0;
+   width: 96%;
+    margin-top: 0;
+    margin-left: 5px;
+    margin-right: 5px; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
 }
 
 @font-face {
